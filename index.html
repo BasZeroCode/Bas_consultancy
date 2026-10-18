@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muhd Abbas | Business Development Consultant</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700;800&display=swap">
+<style>
+:root{--bg:#202020;--bg2:#1c1c1c;--card:#2a2a2a;--bd:#3c3c3c;--tx:#ededed;--gr:#a3a3a3;--lime:#c8ff2e;--cy:#38bdf8;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme="light"]{--bg:#f4f4f1;--bg2:#ecece8;--card:#fff;--bd:#d6d6d0;--tx:#161616;--gr:#555;--lime:#4d6b00;--cy:#0369a1;color-scheme:light}
+html{scroll-behavior:smooth;scroll-padding-top:calc(60px + env(safe-area-inset-top,0px))}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 16px/1.6 'Inter Tight','Inter',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:60}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+.w{max-width:760px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--bg);border-bottom:1px solid var(--bd)}
+nav .w{display:flex;justify-content:flex-end;gap:22px;height:56px;align-items:center;font-size:12px;font-weight:700;color:var(--gr)}
+nav a:hover{color:var(--tx)}nav .li{color:var(--cy)}
+section{padding:88px 0;border-bottom:1px solid var(--bd)}
+section:nth-of-type(even){background:var(--bg2)}
+.hero{padding:72px 0 80px}
+h1{font-size:clamp(80px,19vw,176px);line-height:.88;letter-spacing:-.05em;font-weight:800;margin:0 0 56px}
+h1 i{font-style:normal;color:var(--lime)}
+.tag{font-size:clamp(22px,4vw,30px);line-height:1.2;font-weight:700;letter-spacing:-.02em;margin:0 0 16px;max-width:20ch}
+.sm{font-size:13px;color:var(--gr);margin:0 0 4px}
+.sm.c{color:var(--cy);font-weight:700}.sm.l{color:var(--lime);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
+.btn{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:11px 22px;border:1.5px solid;border-radius:999px;transition:background .2s,color .2s}
+.btn.l{color:var(--lime);border-color:var(--lime)}.btn.l:hover{background:var(--lime);color:#111}
+.btn.c{color:var(--cy);border-color:var(--cy)}.btn.c:hover{background:var(--cy);color:#111}
+.lab{font-size:11px;font-weight:800;letter-spacing:.16em;color:var(--gr);margin:0 0 14px}
+h2{font-size:clamp(32px,6vw,46px);line-height:1.1;letter-spacing:-.03em;font-weight:800;margin:0 0 20px;display:flex;align-items:center;gap:14px}
+h2 svg{width:.8em;height:.8em;flex:none}
+.lede{color:var(--gr);max-width:60ch;margin:0 0 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:8px;overflow:hidden;display:flex;flex-direction:column}
+.th{height:128px;background:linear-gradient(135deg,#2f3b1f,#1b2a35);position:relative}
+.th.a{background:radial-gradient(circle at 70% 50%,transparent 0 16px,rgba(200,255,46,.5) 17px 18px,transparent 19px 34px,rgba(200,255,46,.35) 35px 36px,transparent 37px 54px,rgba(200,255,46,.22) 55px 56px,transparent 57px),linear-gradient(135deg,#2f3b1f,#1b2a35)}
+.th.b{background:radial-gradient(rgba(200,255,46,.5) 2px,transparent 3px) 0 0/24px 24px,linear-gradient(135deg,#2f3b1f,#1b2a35)}
+.th.d{background:repeating-linear-gradient(135deg,rgba(56,189,248,.35) 0 1px,transparent 1px 16px),linear-gradient(135deg,#2f3b1f,#1b2a35)}
+.th b{position:absolute;right:16px;bottom:6px;font-size:64px;line-height:1;letter-spacing:-.05em;color:var(--lime);font-weight:800}
+.cb{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1}
+.card h3{font-size:18px;line-height:1.25;margin:0 0 8px;letter-spacing:-.01em}
+.card p{margin:0;font-size:14px;color:var(--gr)}
+.card .lk{margin-top:auto;padding-top:16px;font-size:12px;font-weight:800;color:var(--lime)}
+.big p{font-size:15px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:18px;margin-top:28px}
+.st{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:20px}
+.st small{font-size:12px;font-weight:800;color:var(--lime);letter-spacing:.06em}
+.st h3{font-size:17px;margin:6px 0 6px}
+.st p{margin:0;font-size:14px;color:var(--gr)}
+.st em{display:block;margin-top:10px;font-style:normal;font-size:13px;color:var(--cy)}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 6px;padding:0;list-style:none}
+.tags li{font-size:12px;font-weight:700;color:var(--cy);border:1.5px solid var(--cy);border-radius:999px;padding:8px 16px}
+.note{font-size:13px;color:var(--gr);margin-top:24px}
+.cta{font-size:clamp(64px,15vw,140px);line-height:.9;letter-spacing:-.05em;font-weight:800;margin:0 0 28px}
+.cta i{font-style:normal;color:var(--lime)}
+footer{padding:28px 0 40px;font-size:12px;color:#777}
+footer .w{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+@media (prefers-reduced-motion:no-preference){.card,.st{transition:transform .2s,border-color .2s}.card:hover,.st:hover{transform:translateY(-3px);border-color:var(--lime)}}
+</style>
+</head>
+<body>
+<nav><div class="w"><a href="#services">Services</a><a href="#work">Work</a><a href="#about">About</a><a class="li" href="https://www.linkedin.com/in/muhd-abbas" target="_blank" rel="noopener">LinkedIn ↗</a></div></nav>
+
+<section class="hero" id="top"><div class="w">
+<h1>Muhd<br>Abbas<i>.</i></h1>
+<p class="tag">Opening businesses. Running them smarter with AI.</p>
+<p class="sm">Business Development Consultant. Freelance.</p>
+<p class="sm">Company formation. Corporate secretarial. IT, AI and fintech.</p>
+<p class="sm c">Google Ads. Cloud accounting. Sales strategy.</p>
+<p class="sm l">Open to new projects</p>
+<div class="btns"><a class="btn c" href="#services">View my services ↓</a><a class="btn l" href="mailto:muabbasa8@gmail.com">Email me ↗</a></div>
+</div></section>
+
+<section id="services"><div class="w">
+<p class="lab">SERVICES</p>
+<h2>Two things I do <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#ffc83d" d="m12 1.5 3.2 6.9 7.5.9-5.6 5.1 1.5 7.4L12 18l-6.6 3.8L6.9 14.4 1.3 9.3l7.5-.9z"/></svg></h2>
+<p class="lede">Open the business. Then run it smarter.</p>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
+<div class="card big"><div class="th a"></div><div class="cb"><h3>Opening a new business</h3><p>I support startups and SMEs with business formation and administrative services. The company is registered with the Accounting and Corporate Regulatory Authority (ACRA) and works with a Qualified Individual (QI) for corporate secretarial services, ensuring compliance with Singapore regulatory requirements.</p><a class="lk" href="#company-setup">See the steps ↗</a></div></div>
+<div class="card big"><div class="th b"></div><div class="cb"><h3>IT consultancy, AI and fintech</h3><p>I provide IT consultancy, AI-enabled solutions, and fintech capabilities. I help organizations adopt digital transformation, improve operations and make data-driven decisions through intelligent, business-aligned technology.</p><a class="lk" href="#ai-digital">See the steps ↗</a></div></div>
+</div></div></section>
+
+<section id="work"><div class="w">
+<p class="lab">SELECTED WORK</p>
+<h2>Greatest Hits <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#ffc83d" d="m12 1.5 3.2 6.9 7.5.9-5.6 5.1 1.5 7.4L12 18l-6.6 3.8L6.9 14.4 1.3 9.3l7.5-.9z"/></svg></h2>
+<p class="lede">Real projects from my experience. Client names left out.</p>
+<div class="grid">
+<div class="card"><div class="th b"></div><div class="cb"><h3>Google Ads</h3><p>Planned and ran Google Ads alongside the sales and marketing plan. A steady stream of online enquiries.</p></div></div>
+<div class="card"><div class="th a"></div><div class="cb"><h3>Excel to cloud accounting</h3><p>Moved the books from spreadsheets to cloud accounting for invoicing and daily operations. One tidy system.</p></div></div>
+<div class="card"><div class="th d"></div><div class="cb"><h3>Your project is next</h3><p>Tell me what you need and I’ll tell you where I’d start.</p><a class="lk" href="#contact">Let’s talk ↗</a></div></div>
+</div></div></section>
+
+<section id="process"><div class="w">
+<p class="lab">PROCESS</p>
+<h2>How I work</h2>
+<div class="grid">
+<div class="card"><div class="th d"><b>01</b></div><div class="cb"><h3>Talk</h3><p>We talk about your business, your goals and what is slowing you down. Then we pick one clear starting point.</p></div></div>
+<div class="card"><div class="th d"><b>02</b></div><div class="cb"><h3>Set up</h3><p>I handle the company setup or build the tech fix, with a pilot first so nothing breaks.</p></div></div>
+<div class="card"><div class="th d"><b>03</b></div><div class="cb"><h3>Support</h3><p>I stay on for filings, follow-up and check-ins. We look at the numbers and adjust.</p></div></div>
+</div></div></section>
+
+<section id="company-setup"><div class="w">
+<p class="lab">COMPANY SETUP</p>
+<h2>Starting a company in Singapore</h2>
+<ul class="tags"><li>Business formation</li><li>Corporate secretarial</li><li>Administrative services</li></ul>
+<div class="steps">
+<div class="st"><small>01</small><h3>Quick chat</h3><p>I ask what the business does and who the owners are.</p><em>Example: a freelance designer wants to incorporate.</em></div>
+<div class="st"><small>02</small><h3>Pick structure and name</h3><p>We choose the structure, usually a private limited company, and check the name.</p><em>Example: founders shortlist three names.</em></div>
+<div class="st"><small>03</small><h3>Gather the details</h3><p>Directors, shareholders, address, activity and share capital.</p><em>Example: overseas founders learn the local director rule.</em></div>
+<div class="st"><small>04</small><h3>File with ACRA</h3><p>The QI makes sure the filing meets requirements.</p><em>Example: you review it all before it goes in.</em></div>
+<div class="st"><small>05</small><h3>Set up the basics</h3><p>Company records ready, plus pointers on bank and accounting.</p><em>Example: a startup gets its records in one pack.</em></div>
+<div class="st"><small>06</small><h3>Stay compliant</h3><p>Yearly filings and updates, with reminders before deadlines.</p><em>Example: a director leaves and it is filed properly.</em></div>
+</div>
+<p class="note">Compliance work is handled by the company’s Qualified Individual. I don’t give legal advice.</p>
+</div></section>
+
+<section id="ai-digital"><div class="w">
+<p class="lab">IT, AI AND FINTECH</p>
+<h2>Technology that fits your business</h2>
+<ul class="tags"><li>IT consultancy</li><li>AI-enabled solutions</li><li>Fintech</li><li>Digital transformation</li><li>Data-driven decisions</li></ul>
+<div class="steps">
+<div class="st"><small>01</small><h3>Look at today</h3><p>I map how you work now: tools, handoffs, pain points.</p><em>Example: invoices made by hand.</em></div>
+<div class="st"><small>02</small><h3>Find the bottleneck</h3><p>We pick the one problem costing the most time or money.</p><em>Example: invoice on the day the job is done.</em></div>
+<div class="st"><small>03</small><h3>Design the fix</h3><p>A tool, automation or AI feature that suits your budget and team.</p><em>Example: cloud invoicing with reminders.</em></div>
+<div class="st"><small>04</small><h3>Pilot, then roll out</h3><p>Test small, fix what breaks, then switch over.</p><em>Example: one month with a few customers.</em></div>
+<div class="st"><small>05</small><h3>Train the team</h3><p>Simple guides so it keeps working after I leave.</p><em>Example: a one-page how-to.</em></div>
+<div class="st"><small>06</small><h3>Measure and improve</h3><p>Check numbers against the goal and adjust.</p><em>Example: a dashboard shows who pays late.</em></div>
+</div></div></section>
+
+<section id="about"><div class="w">
+<p class="lab">ABOUT</p>
+<h2>Plain talk. Clear plans. Honest numbers.</h2>
+<p class="lede">I help founders and small businesses get set up properly and use technology that saves real time. I stay with you from the first chat until things run smoothly.</p>
+<ul class="tags"><li>Business development</li><li>Strategic planning</li><li>Sales and customer acquisition</li><li>Client relationships</li><li>Google Ads</li><li>Marketing strategy</li><li>Team leadership</li><li>Professional communication</li><li>Microsoft Excel</li><li>Cloud accounting</li></ul>
+</div></section>
+
+<section id="contact"><div class="w">
+<p class="lab">CONTACT</p>
+<div class="cta">Let’s talk<i>.</i></div>
+<p class="tag" style="max-width:26ch">Tell me what you sell and who you want to reach. I’ll tell you where I’d start.</p>
+<div class="btns"><a class="btn l" href="https://www.linkedin.com/in/muhd-abbas" target="_blank" rel="noopener">Message me on LinkedIn ↗</a><a class="btn c" href="mailto:muabbasa8@gmail.com">Email me ↗</a></div>
+<p class="note">muabbasa8@gmail.com</p>
+</div></section>
+
+<footer><div class="w"><span>© 2026 · Muhd Abbas</span><a class="btn l" href="#contact">Say hello</a></div></footer>
+</body>
+</html>
